@@ -1,0 +1,15 @@
+{
+  "name": "monorepo-pnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "pnpm -r --parallel start",
+    "start:bugs": "pnpm --filter bugs start",
+    "start:bug": "pnpm --filter bug* start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
